@@ -1,28 +1,27 @@
-Iris Flower Classification (Project 2)
+Iris Flower Classification 
 
 Overview
-This project is a machine learning classification model built using Python and Scikit-learn.  
-It predicts the type of Iris flower based on input features.
-
----
+This project uses Machine Learning (KNN algorithm) to classify iris flowers into three categories.
 
 Features
-- Uses Iris dataset
-- Applies K-Nearest Neighbors (KNN) algorithm
-- Splits data into training and testing sets
-- Calculates accuracy and confusion matrix
-- Allows user input prediction
-
----
+- Dataset visualization
+- Model training using KNN
+- Accuracy and confusion matrix
+- User input prediction
 
 Technologies Used
 - Python
 - Scikit-learn
-- VS Code
-
----
+- Matplotlib
 
 How to Run
+1. Install required libraries:
+   pip install scikit-learn matplotlib
 
-```bash
-python iris_model.py
+2. Run the file:
+   python iris_model.py
+
+Output
+- Model accuracy
+- Confusion matrix
+- Flower prediction
